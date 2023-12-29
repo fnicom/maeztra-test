@@ -1,0 +1,190 @@
+// Header
+
+.header {
+    .header-promocoes {
+        background-color: #353535;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Titillium Web';
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.75rem;
+
+        a:link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #ffffff;
+        }
+
+        a:hover {
+            color: #a9c5db;
+        }
+
+        a:active {
+            color: #a9c5db;
+        }
+
+        height: 24px;
+    }
+
+
+    .main-header {
+        background: #ffffff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .header-logo-maeztra {
+            width: 147px;
+            height: 18px;
+        }
+
+        .header-form-search {
+            background-color: #efefef;
+            border-radius: 8px;
+        }
+
+        .header-href-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+    }
+
+    .header-nav-sub-topics {
+        margin: 0px;
+        padding: 0px 10% 0px 10%;
+
+        .header-nav-ul-sub-topics {
+            margin: 5px 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+
+    a:hover {
+        color: #a9c5db;
+    }
+
+    a:active {
+        color: #a9c5db;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-form-search {
+        display: none;
+    }
+
+    .main-header-sub {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .header-href-links {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-nav-sub-topics {
+        display: none;
+    }
+
+    .header-href-links {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-form-search {
+        display: none;
+    }
+
+}
+
+.header-href-links>div:nth-child(3):hover {
+    background: #FAA500;
+    color: #a9c5db;
+}
+
+
+.header-menu-mob {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-mob-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu-mob-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu-mob .iconAndLink {
+    border: none !important;
+}
+
+.header-menu-mob .iconAndLink img {
+    width: 20px;
+    height: 20px;
+}
+
+.header-menu {
+    padding: 0;
+
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        max-width: 1450px;
+        align-items: center;
+        padding: 20px 0px;
+
+        &-item {
+            font-size: 14px;
+            color: #353535;
+        }
+    }
+}
+
+div>nav>ul>li:nth-child(1) {
+    display: flex;
+
+    img {
+        margin: 0 1rem 0 0;
+    }
+}
+
+div.main-header-sub>div>nav>ul>li:nth-child(1)>a {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #FAA500;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ul li a {
+    font-size: 14px;
+}

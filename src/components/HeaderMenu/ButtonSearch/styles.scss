@@ -1,0 +1,32 @@
+.submit-button { 
+  background: #faa500;
+  width: 119px;
+  height: 40px;
+  border: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  z-index: 0;
+  font-weight: 400;
+}
+
+.search-bar-style {
+  padding-left: 15px;
+  background: #efefef;
+  border: 0px;
+  width: 465px;
+  font-size: 12px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+@media screen and (max-width: 768px){
+  .submit-button {
+      width: 70px;
+      height: 30px;
+      padding: 0px 5px;
+  }
+}

@@ -1,0 +1,19 @@
+.iconAndLink {
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.iconAndLink a {
+  text-decoration: none;
+  color: #353535;
+}
+
+.iconAndLink img {
+  margin-right: 5px;
+}
